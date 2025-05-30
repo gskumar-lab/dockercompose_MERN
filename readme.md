@@ -8,28 +8,28 @@ This project is a full-featured **MERN (MongoDB, Express.js, React, Node.js)** a
 
 ```
 .
-├── backend/                  # Express.js backend with MongoDB integration
-│   ├── Dockerfile
-│   ├── db/
+├── docker-compose.yaml       # Defines all services
+├── backend/                  # Express.js API
+│   ├── Dockerfile            # Builds backend image
+│   ├── db/                   # MongoDB connection
 │   │   └── connection.js
-│   ├── routes/
+│   ├── routes/               # API endpoints
 │   │   └── record.js
-│   └── server.js
-│   └── package*.json
+│   ├── server.js             # Entry point for API
+│   └── package*.json         # Dependencies
 │
-├── frontend/                 # React frontend with Vite and Tailwind
-│   ├── Dockerfile
-│   ├── src/
+├── frontend/                 # React app with Tailwind
+│   ├── Dockerfile            # Builds frontend image
+│   ├── src/                  # App source code
 │   │   ├── App.jsx
 │   │   ├── components/
 │   │   └── main.jsx
-│   ├── public/
-│   ├── cypress/             
+│   ├── public/               # Static assets
+│   ├── cypress/              # End-to-end tests
 │   ├── tailwind.config.js
 │   ├── vite.config.js
-│   └── package*.json
-│
-├── docker-compose.yaml       # Docker Compose for orchestration
+│   └── package*.json         # Frontend dependencies
+
 ```
 
 ---
