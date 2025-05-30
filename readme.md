@@ -19,16 +19,16 @@ This project is a full-featured **MERN (MongoDB, Express.js, React, Node.js)** a
 │   └── package*.json         # Dependencies
 │
 ├── frontend/                 # React app with Tailwind
-│   ├── Dockerfile            # Builds frontend image
-│   ├── src/                  # App source code
-│   │   ├── App.jsx
-│   │   ├── components/
-│   │   └── main.jsx
-│   ├── public/               # Static assets
-│   ├── cypress/              # End-to-end tests
-│   ├── tailwind.config.js
-│   ├── vite.config.js
-│   └── package*.json         # Frontend dependencies
+    ├── Dockerfile            # Builds frontend image
+    ├── src/                  # App source code
+    │   ├── App.jsx
+    │   ├── components/
+    │   └── main.jsx
+    ├── public/               # Static assets
+    ├── cypress/              # End-to-end tests
+    ├── tailwind.config.js
+    ├── vite.config.js
+    └── package*.json         # Frontend dependencies
 
 ```
 
